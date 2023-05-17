@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smart Roofs</string>
+    <string name="title_activity_home"></string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_market">المتجر</string>
+    <string name="title_setting">الإعدادات</string>
+    <string name="Key_id_Category">id_Category</string>
+    <string name="Key_Article_sub_cat">keyarticlesubcat</string>
+    <string name="Key_Article_sub_cat_title">keyarticlesubcattitle</string>
+    <string name="Key_name_Category">keynamecategory</string>
+    <string name="Key_Shared_list_favorite">list_favorite</string>
+    <string name="Key_Shared_list_favorite_map">list_favorite_map</string>
+    <string name="key_sherad_map">key_sherad_map</string>
+    <string name="Key_id_article">keyidarticle</string>
+    <string name="Key_user_name">key_user_name</string>
+    <string name="Key_phone_number">Key_phone_number</string>
+</resources>

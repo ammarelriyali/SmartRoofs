@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285519744792",
+    "project_id": "smart-roofs",
+    "storage_bucket": "smart-roofs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285519744792:android:2d290bd7125d9bb3ca186d",
+        "android_client_info": {
+          "package_name": "com.web.app.smartroof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285519744792-16hdir8n19cc48gsslo6s0u6333c6nae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.web.app.smartroof",
+            "certificate_hash": "90d429ca52f589e1cee88b909c61ec92fe5988ed"
+          }
+        },
+        {
+          "client_id": "285519744792-5lqmc6b5o1k4b12q82k9p3tf0ji4scvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw9LgAXe1Af6NMcYzqX3S-4tutKiSyzYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285519744792-5lqmc6b5o1k4b12q82k9p3tf0ji4scvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

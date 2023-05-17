@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartRoofs" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="background">@color/white</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="WelcomeActivity" parent="Theme.SmartRoofs">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/green</item>
+
+    </style>
+    
+    <style name="AppTheme.Components.ImageView.Button" parent="Theme.SmartRoofs">
+        <item name="android:paddingStart">@dimen/image_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/image_vertical_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+    </style>
+
+
+    <style name="AppTheme.Components.TextView.Header" parent="Theme.SmartRoofs">
+        <item name="android:fontFamily">@font/notosansarabic_semibold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+
+    <style name="Colors_Widget.MaterialComponents.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/colorstate</item>
+        <item name="chipStrokeColor">@color/colorstate2</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

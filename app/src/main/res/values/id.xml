@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Category" type="id"></item>
+    <item name="Market" type="id"></item>
+    <item name="name_Category" type="id"></item>
+    <item name="index" type="id"></item>
+</resources>
